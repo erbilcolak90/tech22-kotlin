@@ -1,4 +1,4 @@
-package tech22solutions.payload
+package tech22solutions.entity.payload
 
 
 

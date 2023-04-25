@@ -2,7 +2,7 @@ package tech22solutions
 
 import org.junit.Test
 import org.junit.Assert.*
-import tech22solutions.input.ExchangeRateInput
+import tech22solutions.entity.input.ExchangeRateInput
 import tech22solutions.service.ExchangeRateService
 
 @kotlinx.serialization.Serializable

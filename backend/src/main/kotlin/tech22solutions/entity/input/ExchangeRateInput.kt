@@ -1,4 +1,4 @@
-package tech22solutions.input
+package tech22solutions.entity.input
 
 @kotlinx.serialization.Serializable
 data class ExchangeRateInput(

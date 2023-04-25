@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/input/ExchangeRateInput.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/entity/input/ExchangeRateInput.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/payload/ExchangeRatePayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/entity/payload/ExchangeRatePayload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/plugins/Routing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/plugins/Routing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/service/ExchangeRateService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/service/ExchangeRateService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ApplicationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ApplicationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ExchangeServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ExchangeServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ov8acuk54gUk4XbKe5v1cGIf8Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/projects/casestudy/tech22-springboot",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Kotlin.ApplicationKt">
+    <configuration name="ExchangeRateServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech22solutions-tech22case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech22solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech22solutions" />
+      <option name="MAIN_CLASS_NAME" value="tech22solutions.ExchangeRateServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeRateServiceTest.should return ExchangeRatePayload when API returns 200 status code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech22solutions-tech22case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech22solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech22solutions" />
+      <option name="MAIN_CLASS_NAME" value="tech22solutions.ExchangeRateServiceTest" />
+      <option name="METHOD_NAME" value="should return ExchangeRatePayload when API returns 200 status code" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeRateServiceTest.should return null when API returns non-200 status code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech22solutions-tech22case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech22solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech22solutions" />
+      <option name="MAIN_CLASS_NAME" value="tech22solutions.ExchangeRateServiceTest" />
+      <option name="METHOD_NAME" value="should return null when API returns non-200 status code" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech22solutions.ApplicationKt" />
+      <module name="tech22solutions-tech22case" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ApplicationKt" />
+        <item itemvalue="JUnit.ExchangeRateServiceTest.should return ExchangeRatePayload when API returns 200 status code" />
+        <item itemvalue="JUnit.ExchangeRateServiceTest.should return null when API returns non-200 status code" />
+        <item itemvalue="JUnit.ExchangeRateServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="" />
+      <created>1682429759999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682429759999</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1682430164147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682430164147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tech22_kotlin$ExchangeRateServiceTest_should_return_ExchangeRatePayload_when_API_returns_200_status_code.ic" NAME="ExchangeRateServiceTest.should return ExchangeRatePayload when API returns 200 status code Coverage Results" MODIFIED="1682455487518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tech22solutions.*</FILTER>
+    </SUITE>
+  </component>
+</project>

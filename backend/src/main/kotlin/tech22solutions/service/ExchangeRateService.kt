@@ -6,8 +6,8 @@ import kotlinx.serialization.json.Json
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.impl.client.HttpClients
 import tech22solutions.exception.CustomException
-import tech22solutions.input.ExchangeRateInput
-import tech22solutions.payload.ExchangeRatePayload
+import tech22solutions.entity.input.ExchangeRateInput
+import tech22solutions.entity.payload.ExchangeRatePayload
 
 @Serializable
 class ExchangeRateService(

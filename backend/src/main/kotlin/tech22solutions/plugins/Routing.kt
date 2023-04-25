@@ -6,7 +6,7 @@ import io.ktor.server.response.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import tech22solutions.exception.InvalidInputException
-import tech22solutions.input.ExchangeRateInput
+import tech22solutions.entity.input.ExchangeRateInput
 import tech22solutions.service.ExchangeRateService
 
 fun Application.configureRouting(exchangeRateService: ExchangeRateService) {
