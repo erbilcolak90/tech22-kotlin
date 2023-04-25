@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/input/ExchangeRateInput.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/entity/input/ExchangeRateInput.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/payload/ExchangeRatePayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/entity/payload/ExchangeRatePayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/plugins/Routing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/plugins/Routing.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/service/ExchangeRateService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/tech22solutions/service/ExchangeRateService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ApplicationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ApplicationTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ExchangeServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/tech22solutions/ExchangeServiceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.css" afterDir="false" />
-    </list>
+    <list default="true" id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="Readme file update and entities package update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682430164147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme file update and entities package update">
+      <created>1682456638675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456638676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Readme file update and entities package update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme file update and entities package update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tech22_kotlin$ExchangeRateServiceTest_should_return_ExchangeRatePayload_when_API_returns_200_status_code.ic" NAME="ExchangeRateServiceTest.should return ExchangeRatePayload when API returns 200 status code Coverage Results" MODIFIED="1682455487518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
