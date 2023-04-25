@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="Readme file update and entities package update" />
+    <list default="true" id="d84b4087-35d7-4319-aa02-661dd41a72b1" name="Changes" comment="client side added">
+      <change beforePath="$PROJECT_DIR$/client/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682456638676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="client side added">
+      <created>1682456975233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456975233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Readme file update and entities package update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme file update and entities package update" />
+    <MESSAGE value="client side added" />
+    <option name="LAST_COMMIT_MESSAGE" value="client side added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tech22_kotlin$ExchangeRateServiceTest_should_return_ExchangeRatePayload_when_API_returns_200_status_code.ic" NAME="ExchangeRateServiceTest.should return ExchangeRatePayload when API returns 200 status code Coverage Results" MODIFIED="1682455487518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
