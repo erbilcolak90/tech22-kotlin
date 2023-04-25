@@ -17,6 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Backend : Run 'Application.kt'
 
+### Postman Collection
+
+[Click Here For Postman Collection.zip](https://github.com/erbilcolak90/tech22-kotlin/files/11326972/exchange.postman_collection.zip)
+
+
 
 ### Entities
 
