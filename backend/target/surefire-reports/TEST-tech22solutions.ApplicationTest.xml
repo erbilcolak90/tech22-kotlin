@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="tech22solutions.ApplicationTest" time="0.389" errors="1" skipped="0">
+  <properties>
+    <property name="idea.plugins.compatible.build" value="999.SNAPSHOT"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\erbilcolak\Downloads\tech22case"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\erbilcolak\Downloads\tech22case"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="kotlin.incremental.compilation" value="false"/>
+    <property name="idea.io.use.nio2" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ERBILC~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="ide.hide.excluded.files" value="false"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3\bin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\Java\scripts;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3\bin;C:\Users\erbilcolak\Downloads\algs4.jar;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\erbilcolak\.cargo\bin;C:\Users\erbilcolak\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.16.1;\bin;C:\Users\erbilcolak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\erbilcolak\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\erbilcolak\AppData\Local\Programs\mongosh\;C:\mongoDB\mongosh-1.6.0-win32-x64\mongosh-1.6.0-win32-x64\bin;C:\mongoDB\mongodb-database-tools-windows-x86_64-100.6.0\mongodb-database-tools-windows-x86_64-100.6.0\bin;C:\Users\erbilcolak\AppData\Local\JetBrains\Toolbox\scripts;;."/>
+    <property name="psi.track.invalidation" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="project.structure.add.tools.jar.to.new.jdk" value="false"/>
+    <property name="os.version" value="10.0"/>
+    <property name="psi.incremental.reparse.depth.limit" value="1000"/>
+    <property name="user.home" value="C:\Users\erbilcolak"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="erbilcolak"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.3 install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="ast.loading.filter" value="false"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="idea.ignore.disabled.plugins" value="true"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tech22solutions.ApplicationTest" name="testRoot" time="0.389">
+    <error message="Top-level decoder: deserializing nested class for &apos;3&apos; in &apos;kotlin.collections.LinkedHashMap&apos;
+...VrpPC0mQj0T6VmqPfexRU2ntidngbgc8
+                                  ^ at line 10, column 48
+" type="net.mamoe.yamlkt.YamlDecodingException">net.mamoe.yamlkt.YamlDecodingException: Top-level decoder: deserializing nested class for &apos;3&apos; in &apos;kotlin.collections.LinkedHashMap&apos;
+...VrpPC0mQj0T6VmqPfexRU2ntidngbgc8
+                                  ^ at line 10, column 48
+
+	at net.mamoe.yamlkt.internal.YamlUtils__ContextualExceptionKt.contextualDecodingException(ContextualException.kt:154)
+	at net.mamoe.yamlkt.internal.YamlUtils.contextualDecodingException(Unknown Source)
+	at net.mamoe.yamlkt.internal.YamlDecoder$AbstractDecoder.decodeSerializableElement(YamlDecoder.kt:181)
+	at kotlinx.serialization.encoding.CompositeDecoder$DefaultImpls.decodeSerializableElement$default(Decoding.kt:535)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:111)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:84)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43)
+	at net.mamoe.yamlkt.internal.YamlElementMapSerializer.deserialize(YamlElementSerializer.kt)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:40)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:30)
+	at net.mamoe.yamlkt.Yaml.decodeFromString(Yaml.kt:162)
+	at net.mamoe.yamlkt.Yaml.decodeYamlFromString(Yaml.kt:175)
+	at io.ktor.server.config.yaml.YamlConfigJvmKt.configFromString(YamlConfigJvm.kt:36)
+	at io.ktor.server.config.yaml.YamlConfigJvmKt.YamlConfig(YamlConfigJvm.kt:25)
+	at io.ktor.server.config.yaml.YamlConfigLoader.load(YamlConfig.kt:21)
+	at io.ktor.server.config.ConfigLoader$Companion.load(ConfigLoaders.kt:33)
+	at io.ktor.server.config.HoconApplicationConfigKt.ApplicationConfig(HoconApplicationConfig.kt:94)
+	at io.ktor.server.testing.TestEngineJvmKt.DefaultTestConfig(TestEngineJvm.kt:9)
+	at io.ktor.server.testing.TestEngineJvmKt.DefaultTestConfig$default(TestEngineJvm.kt:9)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2$1.invoke(TestApplication.kt:148)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2$1.invoke(TestApplication.kt:142)
+	at io.ktor.server.testing.TestEngineKt$createTestEnvironment$2.invoke(TestEngine.kt:27)
+	at io.ktor.server.testing.TestEngineKt$createTestEnvironment$2.invoke(TestEngine.kt:23)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentBuilder.build(ApplicationEngineEnvironmentJvm.kt:74)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentKt.applicationEngineEnvironment(ApplicationEngineEnvironment.kt:48)
+	at io.ktor.server.testing.TestEngineKt.createTestEnvironment(TestEngine.kt:23)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2.invoke(TestApplication.kt:142)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2.invoke(TestApplication.kt:140)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.TestApplicationBuilder.getEnvironment$ktor_server_test_host(TestApplication.kt:140)
+	at io.ktor.server.testing.TestApplicationBuilder$engine$2.invoke(TestApplication.kt:155)
+	at io.ktor.server.testing.TestApplicationBuilder$engine$2.invoke(TestApplication.kt:154)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.TestApplicationBuilder.getEngine$ktor_server_test_host(TestApplication.kt:154)
+	at io.ktor.server.testing.ApplicationTestBuilder$createClient$1$1$1.invoke(TestApplication.kt:244)
+	at io.ktor.server.testing.ApplicationTestBuilder$createClient$1$1$1.invoke(TestApplication.kt:244)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.getAppEngine(DelegatingTestClientEngine.kt:26)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.access$getAppEngine(DelegatingTestClientEngine.kt:19)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine$mainEngineHostWithPorts$2$1.invokeSuspend(DelegatingTestClientEngine.kt:40)
+	at &amp;#8;&amp;#8;&amp;#8;(Coroutine boundary.&amp;#8;(&amp;#8;)
+	at io.ktor.client.engine.HttpClientEngine$DefaultImpls.executeWithinCallContext(HttpClientEngine.kt:100)
+	at io.ktor.client.engine.HttpClientEngine$install$1.invokeSuspend(HttpClientEngine.kt:70)
+	at io.ktor.client.plugins.HttpSend$DefaultSender.execute(HttpSend.kt:138)
+	at io.ktor.client.plugins.HttpRedirect$Plugin$install$1.invokeSuspend(HttpRedirect.kt:64)
+	at io.ktor.client.plugins.HttpCallValidator$Companion$install$3.invokeSuspend(HttpCallValidator.kt:151)
+	at io.ktor.client.plugins.HttpSend$Plugin$install$1.invokeSuspend(HttpSend.kt:104)
+	at io.ktor.client.plugins.HttpCallValidator$Companion$install$1.invokeSuspend(HttpCallValidator.kt:130)
+	at io.ktor.client.plugins.HttpRequestLifecycle$Plugin$install$1.invokeSuspend(HttpRequestLifecycle.kt:38)
+	at io.ktor.client.HttpClient.execute$ktor_client_core(HttpClient.kt:191)
+	at io.ktor.client.statement.HttpStatement.executeUnsafe(HttpStatement.kt:108)
+	at io.ktor.client.statement.HttpStatement.execute(HttpStatement.kt:47)
+	at tech22solutions.ApplicationTest$testRoot$1.invokeSuspend(ApplicationTest.kt:31)
+	at io.ktor.server.testing.TestApplicationKt$testApplication$builder$1$1.invokeSuspend(TestApplication.kt:288)
+Caused by: net.mamoe.yamlkt.YamlDecodingException: Top-level decoder: deserializing nested class for &apos;3&apos; in &apos;kotlin.collections.LinkedHashMap&apos;
+...VrpPC0mQj0T6VmqPfexRU2ntidngbgc8
+                                  ^ at line 10, column 48
+
+	at net.mamoe.yamlkt.internal.YamlUtils__ContextualExceptionKt.contextualDecodingException(ContextualException.kt:154)
+	at net.mamoe.yamlkt.internal.YamlUtils.contextualDecodingException(Unknown Source)
+	at net.mamoe.yamlkt.internal.YamlDecoder$AbstractDecoder.decodeSerializableElement(YamlDecoder.kt:181)
+	at kotlinx.serialization.encoding.CompositeDecoder$DefaultImpls.decodeSerializableElement$default(Decoding.kt:535)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:111)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:84)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43)
+	at net.mamoe.yamlkt.internal.YamlElementMapSerializer.deserialize(YamlElementSerializer.kt)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:40)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:30)
+	at net.mamoe.yamlkt.Yaml.decodeFromString(Yaml.kt:162)
+	at net.mamoe.yamlkt.Yaml.decodeYamlFromString(Yaml.kt:175)
+	at io.ktor.server.config.yaml.YamlConfigJvmKt.configFromString(YamlConfigJvm.kt:36)
+	at io.ktor.server.config.yaml.YamlConfigJvmKt.YamlConfig(YamlConfigJvm.kt:25)
+	at io.ktor.server.config.yaml.YamlConfigLoader.load(YamlConfig.kt:21)
+	at io.ktor.server.config.ConfigLoader$Companion.load(ConfigLoaders.kt:33)
+	at io.ktor.server.config.HoconApplicationConfigKt.ApplicationConfig(HoconApplicationConfig.kt:94)
+	at io.ktor.server.testing.TestEngineJvmKt.DefaultTestConfig(TestEngineJvm.kt:9)
+	at io.ktor.server.testing.TestEngineJvmKt.DefaultTestConfig$default(TestEngineJvm.kt:9)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2$1.invoke(TestApplication.kt:148)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2$1.invoke(TestApplication.kt:142)
+	at io.ktor.server.testing.TestEngineKt$createTestEnvironment$2.invoke(TestEngine.kt:27)
+	at io.ktor.server.testing.TestEngineKt$createTestEnvironment$2.invoke(TestEngine.kt:23)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentBuilder.build(ApplicationEngineEnvironmentJvm.kt:74)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentKt.applicationEngineEnvironment(ApplicationEngineEnvironment.kt:48)
+	at io.ktor.server.testing.TestEngineKt.createTestEnvironment(TestEngine.kt:23)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2.invoke(TestApplication.kt:142)
+	at io.ktor.server.testing.TestApplicationBuilder$environment$2.invoke(TestApplication.kt:140)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.TestApplicationBuilder.getEnvironment$ktor_server_test_host(TestApplication.kt:140)
+	at io.ktor.server.testing.TestApplicationBuilder$engine$2.invoke(TestApplication.kt:155)
+	at io.ktor.server.testing.TestApplicationBuilder$engine$2.invoke(TestApplication.kt:154)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.TestApplicationBuilder.getEngine$ktor_server_test_host(TestApplication.kt:154)
+	at io.ktor.server.testing.ApplicationTestBuilder$createClient$1$1$1.invoke(TestApplication.kt:244)
+	at io.ktor.server.testing.ApplicationTestBuilder$createClient$1$1$1.invoke(TestApplication.kt:244)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.getAppEngine(DelegatingTestClientEngine.kt:26)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.access$getAppEngine(DelegatingTestClientEngine.kt:19)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine$mainEngineHostWithPorts$2$1.invokeSuspend(DelegatingTestClientEngine.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine$mainEngineHostWithPorts$2.invoke(DelegatingTestClientEngine.kt:40)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine$mainEngineHostWithPorts$2.invoke(DelegatingTestClientEngine.kt:39)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.getMainEngineHostWithPorts(DelegatingTestClientEngine.kt:39)
+	at io.ktor.server.testing.client.DelegatingTestClientEngine.execute(DelegatingTestClientEngine.kt:55)
+	at io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.yamlkt.YamlDecodingException: Top-level decoder: deserializing nested class for &apos;1&apos; in &apos;kotlin.collections.LinkedHashMap&apos;
+...//api.apilayer.com/fixer/latest?
+                                  ^ at line 9, column 52
+
+	at net.mamoe.yamlkt.internal.YamlUtils__ContextualExceptionKt.contextualDecodingException(ContextualException.kt:154)
+	at net.mamoe.yamlkt.internal.YamlUtils.contextualDecodingException(Unknown Source)
+	at net.mamoe.yamlkt.internal.YamlDecoder$AbstractDecoder.decodeSerializableElement(YamlDecoder.kt:181)
+	at kotlinx.serialization.encoding.CompositeDecoder$DefaultImpls.decodeSerializableElement$default(Decoding.kt:535)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:111)
+	at kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:84)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43)
+	at net.mamoe.yamlkt.internal.YamlElementMapSerializer.deserialize(YamlElementSerializer.kt)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:40)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:30)
+	at net.mamoe.yamlkt.internal.YamlDecoder$AbstractDecoder.decodeSerializableElement(YamlDecoder.kt:179)
+	... 61 more
+Caused by: net.mamoe.yamlkt.YamlDecodingException: Expected whitespace after COLON but found / for &apos;kotlin.collections.LinkedHashMap&apos;
+    baseUrl: https://api.apilayer.com/fixer/latest?
+                  ^ at line 9, column 20
+
+	at net.mamoe.yamlkt.internal.YamlUtils__ContextualExceptionKt.contextualDecodingException(ContextualException.kt:154)
+	at net.mamoe.yamlkt.internal.YamlUtils.contextualDecodingException(Unknown Source)
+	at net.mamoe.yamlkt.internal.YamlUtils__ContextualExceptionKt.contextualDecodingException$default(ContextualException.kt:128)
+	at net.mamoe.yamlkt.internal.YamlUtils.contextualDecodingException$default(Unknown Source)
+	at net.mamoe.yamlkt.internal.YamlDecoder$BlockMapDecoder.decodeElementIndex(YamlDecoder.kt:363)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:34)
+	at kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43)
+	at net.mamoe.yamlkt.internal.YamlElementMapSerializer.deserialize(YamlElementSerializer.kt)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:40)
+	at net.mamoe.yamlkt.internal.YamlElementSerializer.deserialize(YamlElementSerializer.kt:30)
+	at net.mamoe.yamlkt.internal.YamlDecoder$AbstractDecoder.decodeSerializableElement(YamlDecoder.kt:179)
+	... 71 more
+</error>
+    <system-out>2023-04-19 22:10:19.335 [main @coroutine#1] TRACE io.ktor.client.plugins.HttpPlainText - Adding Accept-Charset=UTF-8 to http:///
+2023-04-19 22:10:19.419 [main @coroutine#1] TRACE i.k.client.plugins.HttpCallValidator - Processing exception net.mamoe.yamlkt.YamlDecodingException: Top-level decoder: deserializing nested class for &apos;3&apos; in &apos;kotlin.collections.LinkedHashMap&apos;
+...VrpPC0mQj0T6VmqPfexRU2ntidngbgc8
+                                  ^ at line 10, column 48
+ for request http://localhost/
+</system-out>
+  </testcase>
+</testsuite>
