@@ -1,11 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ### Properties
  - JDK 17
  - Kotlin 1.8.20
  - Ktor 2.2.4
  
+ ### Postman Collection
+
+[Click Here For Postman Collection.zip](https://github.com/erbilcolak90/tech22-kotlin/files/11326972/exchange.postman_collection.zip)
+
+ 
 ### How to start project
+
+Backend : Run 'Application.kt' then use the postman collection for request.
 
 Frontend : First, run the development server:
 
@@ -14,14 +20,6 @@ Frontend : First, run the development server:
 -npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-Backend : Run 'Application.kt'
-
-### Postman Collection
-
-[Click Here For Postman Collection.zip](https://github.com/erbilcolak90/tech22-kotlin/files/11326972/exchange.postman_collection.zip)
-
-
 
 ### Entities
 
